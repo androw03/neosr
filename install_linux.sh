@@ -54,7 +54,7 @@ if [ -d "$INSTALL_DIR" ]; then
         exit 1
     fi
 else
-    git clone https://github.com/neosr-project/neosr >/dev/null 2>&1
+    git clone https://github.com/androw03/neosr >/dev/null 2>&1
     cd neosr
 fi
 
