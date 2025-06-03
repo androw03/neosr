@@ -34,7 +34,7 @@ from neosr.utils import (
 from neosr.utils.options import copy_opt_file, parse_options
 
 # minimum supported python version
-if sys.version_info.major != 3 or sys.version_info.minor != 12:
+if sys.version_info.major != 3 or sys.version_info.minor != 11:
     msg = f"{tc.red}Python version 3.12 is required.{tc.end}"
     raise ValueError(msg)
 
